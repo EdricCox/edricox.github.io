@@ -1,0 +1,62 @@
+/*=========Navbar==========*/
+nav {
+    display: block;
+}
+.navbar__container {
+    padding-top: 2rem;
+    position: absolute;
+    width: 100%;
+    background: #20202380;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 2;
+}
+.navbar-nav {
+    padding-left: 9rem;
+}
+.nav-link {
+    margin-bottom: 0.4rem;
+
+}
+.icon-git {
+    font-size: 18px;
+    margin-bottom: 0.4rem;
+}
+.LOGO img {
+    display: flex;
+    width: auto;
+    height: 38px;
+    margin-top: 0.3rem;
+}
+.nav-link {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+.nav-link:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+/**/
+@media screen and (max-width: 1024px) {
+    .navbar__container {
+        display: block;
+
+    }
+    .navbar-nav {
+        padding: 0;
+        margin: 0;
+        display: inline-flex;
+    }
+    .sun_night {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .navbar__container {
+        display: block;
+    }
+    
+}

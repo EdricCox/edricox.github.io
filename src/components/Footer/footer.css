@@ -1,0 +1,7 @@
+.footer__content {
+    opacity: 0.4;
+    font-size: 0.875rem;
+}
+.footer__content a {
+    text-decoration: none;
+}

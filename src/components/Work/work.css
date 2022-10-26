@@ -1,0 +1,43 @@
+.experience__container {
+    width: 54%;
+}
+#experience {
+    padding-bottom: 4rem;
+}
+#experience h5 {
+    padding-top: 3rem;
+    font-size: 20px;
+    line-height: 1.33;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: #525252;
+    text-decoration-thickness: 4px;
+}
+.client__work img {
+    border-radius: 2rem;
+}
+.experience {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.e-projective {
+    font-size: 15px;
+    opacity: 0.5;
+    padding-top: 0.5rem;
+}
+.content_link {
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0 , 0.2, 0, 1);
+    cursor: pointer;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    color: #ff63c3;
+    text-underline-offset: 3px;
+}
+.content_link:hover {
+    color: #ff63c3;
+}
