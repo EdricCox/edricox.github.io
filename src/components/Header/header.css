@@ -32,8 +32,9 @@ header {
     opacity: 70%;
 }
 /*On the Web */
-.on_the-web {
-    margin-top: 1.5rem;
+.on_the-web ul {
+    position: relative;
+    display: grid;
 }
 .on_the-web h5{
     padding-bottom: 0.5rem;
@@ -44,21 +45,37 @@ header {
     text-decoration-color: #525252;
     text-decoration-thickness: 4px;
 }
-.on_the-web p {
+.on_the-web ul li {
+    position: relative;
+    list-style: none;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.on_the-web ul li a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-decoration: none;
+    font-size: 0.95rem;
     background: transparent;
     text-indent: 1em;
     color: #81e6d9;
     line-height: 1.9rem;
 }
-.on_the-web p:hover {
+.on_the-web ul li a:hover {
     background: #525252;
-    width: 10rem;
-    border-radius: 4rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
     transition: 200ms;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     opacity: 0.75;
 }
+.on_web-icon {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
 /*content like me*/
 
 /*====image=====*/

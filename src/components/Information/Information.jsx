@@ -1,5 +1,6 @@
 import React from 'react'
 import {BsClipboardCheck} from 'react-icons/bs'
+import {MdCastForEducation} from 'react-icons/md'
 import './information.css'
 
 const Information = () => {
@@ -11,8 +12,8 @@ const Information = () => {
                 <div className="col-6 col-md-4">
                     <article className="info">
                             <h6>Education</h6>
-                            <h6><a href='https://aptechsaigon.edu.vn/'>Aptech SaiGon<br />
-                            Computer Education</a></h6>
+                            <h6> <MdCastForEducation /> Aptech SaiGon<br />
+                            Computer Education</h6>
                             <small>ITT International Technician</small>
                         </article>
                     </div>

@@ -21,7 +21,7 @@ const Navbar = () => {
             <a className="nav-link" href="#contact">Contact</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="https://github.com/EdricCox"><BsGithub className="icon-git" /> Source</a>
+            <a className="nav-link" href="https://github.com/EdricCox/edricox.github.io"><BsGithub className="icon-git" /> Source</a>
           </li>
         </ul>
         <ul className="sun_night">
