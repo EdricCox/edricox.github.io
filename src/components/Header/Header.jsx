@@ -34,10 +34,12 @@ const Header = () => {
       </div>
       <div className="container col-6 on_the-web">
         <h5>On The Web</h5>
-          <p> <BsGithub className="on_web-icon" /> @EdricCox</p>
-          <p> <BsFacebook className="on_web-icon"/> @Facebook</p>
-          <p> <RiInstagramFill className="on_web-icon" /> @Instagram</p>
-          <p> <BsLinkedin className="on_web-icon"/> @Linkedin</p>
+        <ul>
+          <li><BsGithub className="on_web-icon-github" /><a href="https://github.com/EdricCox"> @EdricCox</a></li>
+          <li><BsFacebook className="on_web-icon" /><a href="https://www.facebook.com/coxposeidon/"> @coxposeidon</a></li>
+          <li><RiInstagramFill className="on_web-icon" /><a href="instagram.com"> @_trandinhnhat.cox_</a></li>
+          <li><BsLinkedin className="on_web-icon"/><a href="https://www.linkedin.com/in/tran-dinh-nhat-158569221/"> @tran-dinh-nhat-158569221</a></li>
+        </ul>
       </div>
     </header>
   )
