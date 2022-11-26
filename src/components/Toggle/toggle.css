@@ -7,7 +7,7 @@
     padding: 3px;
     cursor: pointer;
 }
-.toggle > * {
+.toggle>* {
     width: 1.5rem;
     height: 1rem;
     color: #FBD38D;
